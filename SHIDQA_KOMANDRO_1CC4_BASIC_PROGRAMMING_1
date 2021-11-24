@@ -1,0 +1,29 @@
+package com.company;
+
+public class Main {
+    public static void main(String[] args) {
+
+        // Ketik disini
+        System.out.println("Selamat datang di pusat pelayanan vaksin");
+
+        String namaLengkap = "Shidqa Shifiyna";
+
+        String kelas = "1CC4";
+
+        int umur = 18 ;
+
+
+        if(umur >= 16){
+            System.out.println("Silahkan menunggu di kursi antrian");
+        }else if (umur >= 8){
+            System.out.println("Mohon kembali tahun depan");
+        }else{
+            System.out.println("Umur anda belum mencukupi");
+        }
+
+        System.out.println("Nama lengkapnya adalah " + namaLengkap);
+        System.out.println("Kelasnya adalah " + kelas);
+        System.out.println("Umurnya adalah " + umur );
+        
+    }
+}
